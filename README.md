@@ -4,7 +4,7 @@ A Tensorflow implementation of a Convolutional Neural Network for classification
 Dataset for running the code :
 https://www.kaggle.com/crawford/deepsat-sat6
 
-Written on Python 3.6, Tensorflow 1.3.0, CUDA 8.
+Written in Python 3.6, Tensorflow 1.3.0, CUDA 8.
 Dependencies
 <ul>
   <li> Tensorflow-GPU </li>
@@ -20,5 +20,4 @@ Dependencies
   <li> Run CNN_Model.py </li>
 </ol>
 
-By Sree Harsha Nelaturu
-Artificial Intelligence Researcher, Next Tech Lab
+Next Tech Lab™
