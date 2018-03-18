@@ -15,10 +15,6 @@ def new_weights(shape):
 def new_biases(length):
     return tf.Variable(tf.constant(0.05, shape=[length]))
 
-#Hyperparameters
-batch_size = 16
-learning_rate = 0.005
-epochs = 20
 
 #This is a really useful way to initialize new conv layers, where it becomes almost modular with this helper function.
 def create_conv_layer(input, num_input_channels, filter_size, num_filters, use_pooling=True):
